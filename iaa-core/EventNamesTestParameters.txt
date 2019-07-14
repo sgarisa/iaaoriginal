@@ -1,0 +1,251 @@
+Category B:
+
+URL:http://ho-stgservicehub-01:38080/PPSRest/rest/comms/api/v1/ppsi/comm/categoryB
+
+Switch
+{
+"eventName": "Switch",
+"clientNumber" : "106106164603",
+"investmentNumber" : "POL2014219276601",
+"productName" : "PPS Investment Account",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-07-07T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "SwitchAdhoc"
+}
+Adhoc
+{
+"eventName": "Adhoc Instruction",
+"clientNumber" : "106106168244",
+"investmentNumber" : "POL2015336292221",
+"productName" : "OPN Living Annuity",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-07-07T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "SwitchAdhoc"
+}
+WithDrawals
+{
+"eventName": "Withdrawal",
+"clientNumber" : "106106128977",
+"investmentNumber" : "INV2017083000056",
+"productName" : "PPS Retirement Annuity",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-07-10T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "Withdrawals"
+}
+{
+"eventName": "PPSI Withdrawal No Tax",
+"clientNumber" : "106106059208",
+"investmentNumber" : "INV2018186000017",
+"productName" : "Vested PPS Profit-Share Account",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-07-10T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "Withdrawals”
+"
+}
+{
+"eventName": "PPSI Withdrawal Transfer",
+"clientNumber" : "106106159889",
+"investmentNumber" : "POL2012171252490",
+"productName" : "PPS Personal Pension Retirement Annuity Fund",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-07-10T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "Withdrawals"
+}
+{
+"eventName": "PPSI Withdrawal CGT",
+"clientNumber" : "XXXXXXXX",
+"investmentNumber" : "XXXXXXXXXX",
+"productName" : "PPS Personal Pension Retirement Annuity Fund",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-07-10T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "Withdrawals”
+"
+}
+
+=================================
+Category C 
+http://ho-stgservicehub-01:38080/PPSRest/rest/comms/api/v1/ppsi/comm/categoryC
+
+//Family Linking or linking new test data:
+"eventName": "PPSI Linking PPS Member",
+"clientNumber" : "106106172049",
+"investmentNumber" : "%",
+"productName" : "PPS Investment Account",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-07-10T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "FamilyLinkingOrUnlinking"
+
+"eventName": "PPSI Unlinking PPS Member",
+"clientNumber" : "106106172049",
+"investmentNumber" : "%",
+"productName" : "PPS Investment Account",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-07-10T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "FamilyLinkingOrUnlinking"
+
+"eventName": "PPSI Linking PPSI investor",
+"clientNumber" : "106106172049",
+"investmentNumber" : "%",
+"productName" : "PPS Investment Account",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-07-10T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "FamilyLinkingOrUnlinking"
+
+"eventName": "PPSI Unlinking PPSI investor",
+"clientNumber" : "106106172049",
+"investmentNumber" : "%",
+"productName" : "PPS Investment Account",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-07-10T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "FamilyLinkingOrUnlinking"
+===============================================================================
+
+//Changes
+{
+"eventName": "PPSI Annuity Changes",
+"clientNumber" : "106106157132",
+"investmentNumber" : "POL2011025238617",
+"productName" : "OPN Living Annuity",
+"sourceSystem" : "source system",
+"effectiveDate": "2016-01-08T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "Changes"
+}
+
+{
+"eventName": "PPSI Policy Static Changes",
+"clientNumber" : "106106169907",
+"investmentNumber" : "INV2016200000023",
+"productName" : "PPS Personal Pension Retirement Annuity Fund",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-06-30T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "Changes"
+}
+
+
+{
+"eventName": "PPSI Unit Holder Static Changes",
+"clientNumber" : "106106175046",
+"investmentNumber" : "PPS Tax Free Investment Account",
+"productName" : "No Product",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-06-07T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "Changes"
+}
+==================================================================
+
+//FAAmendments
+{
+"eventName": "PPSI FA New Adviser",
+"clientNumber" : "106106086982",
+"investmentNumber" : "POL2014120273225",
+"productName" : "PPS Retirement Annuity",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-06-04T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "FAAmendments"
+}
+
+{
+"eventName": "PPSI FA Old Adviser",
+"clientNumber" : "106106086982",
+"investmentNumber" : "POL2014120273225",
+"productName" : "PPS Retirement Annuity",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-06-04T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "FAAmendments
+}
+
+{
+"eventName": "PPSI FA Client Letter",
+"clientNumber" : "106106086982",
+"investmentNumber" : "POL2014120273225",
+"productName" : "PPS Retirement Annuity",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-06-04T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "FAAmendments"
+}
+
+==================================================================
+
+Category D
+http://ho-stgservicehub-01:38080/PPSRest/rest/comms/api/v1/ppsi/comm/categoryD
+
+{
+"eventName": "PPSI Cession",
+"clientNumber" : "106106172992",
+"investmentNumber" : "INV2017265000109",
+"productName" : "OPN Investment Account",
+"sourceSystem" : "source system",
+"effectiveDate": "2017-11-09T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "Cession"
+}
+
+===============================================================================
+Category E
+
+http://ho-stgservicehub-01:38080/PPSRest/rest/comms/api/v1/ppsi/comm/categoryE
+
+{
+"eventName": "Financial Adviser commission statement",
+"productName" : "PPS Preservation Provident Fund",
+"effectiveDate": "2018-07-10T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"brokerageCode" :"106B73-00"
+"templateName" : "BrokerCommission"
+}
+
+Category F
+===============================================================================
+http://ho-stgservicehub-01:38080/PPSRest/rest/comms/api/v1/ppsi/comm/categoryF
+{
+"eventName": "Regulation 28 Letter",
+"clientNumber" : "106106061768",
+"investmentNumber" : "POL2015196287871",
+"productName" : "PPS Retirement Annuity",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-05-25T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "Regulation28NonCompliance"
+}
+
+
+{
+"eventName": "Annuity Annual Review Communication",
+"clientNumber" : "106106138360",
+"investmentNumber" : "POL2014198275793",
+"productName" : "PPS Living Annuity",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-06-01T18:09:16Z",
+"workFlowNumber" : "A1336283"
+"templateName" : AnnuityAnnualReview
+}
+
+
+{
+"eventName": "S14 Fee Renewal Confirmation",
+"clientNumber" : "106106160169",
+"investmentNumber" : "POL2012223253816",
+"productName" : "OPN Personal Pension",
+"sourceSystem" : "source system",
+"effectiveDate": "2018-06-07T18:09:16Z",
+"workFlowNumber" : "A1336283",
+"templateName" : "Section14FeeRenewal"
+}
+
+
